@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artesvip - Comunicação Visual</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f8f8f8;
+      color: #333;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1579546929518-9e396f3cc809') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+    .services li {
+      margin: 10px 0;
+    }
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    .social a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #fff;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 500px;
+      margin-top: 20px;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Artesvip">
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Personalize com estilo</h1>
+    <p>Especialistas em envelopamento e comunicação visual</p>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre a Artesvip</h2>
+    <p>Somos a <strong>Artesvip</strong>, uma empresa especializada em publicidade, propaganda e comunicação visual. Trabalhamos com personalização de ambientes e automóveis, envelopamentos, insulfilm e muito mais. Nosso foco é levar identidade e estilo para você e seu negócio.</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <ul class="services">
+      <li>Envelopamento de veículos</li>
+      <li>Comunicação visual</li>
+      <li>Personalização de ambientes</li>
+      <li>Instalação de insulfilm</li>
+      <li>Publicidade e propaganda</li>
+    </ul>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato conosco:</p>
+    <div class="social">
+      <a href="https://linktr.ee/Artesvip" target="_blank">Nosso Linktree</a>
+      <a href="https://wa.me/5511933438209" target="_blank">WhatsApp Direto</a>
+    </div>
+    <form action="#" method="post">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Artesvip. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
